@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		309340BA2B21D93100C8B201 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309340B92B21D93100C8B201 /* AppDelegate.swift */; };
+		309340BD2B220E8C00C8B201 /* LapsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309340BC2B220E8C00C8B201 /* LapsModel.swift */; };
+		309340C02B220F0B00C8B201 /* StopWatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309340BF2B220F0B00C8B201 /* StopWatchViewModel.swift */; };
+		309340C52B22F23C00C8B201 /* StopWatchButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309340C42B22F23C00C8B201 /* StopWatchButtons.swift */; };
+		309340C82B22F86D00C8B201 /* enumarationsFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309340C72B22F86D00C8B201 /* enumarationsFile.swift */; };
+		309340CA2B233D1B00C8B201 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309340C92B233D1B00C8B201 /* Extensions.swift */; };
+		30A72F3C2B20BD5E004E9E7E /* StopWatchAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A72F3B2B20BD5E004E9E7E /* StopWatchAppApp.swift */; };
+		30A72F3E2B20BD5E004E9E7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A72F3D2B20BD5E004E9E7E /* ContentView.swift */; };
+		30A72F402B20BD60004E9E7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A72F3F2B20BD60004E9E7E /* Assets.xcassets */; };
+		30A72F432B20BD60004E9E7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A72F422B20BD60004E9E7E /* Preview Assets.xcassets */; };
+		30A72F4A2B20C42A004E9E7E /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A72F492B20C42A004E9E7E /* ColorConstants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		309340B92B21D93100C8B201 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		309340BC2B220E8C00C8B201 /* LapsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LapsModel.swift; sourceTree = "<group>"; };
+		309340BF2B220F0B00C8B201 /* StopWatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchViewModel.swift; sourceTree = "<group>"; };
+		309340C42B22F23C00C8B201 /* StopWatchButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchButtons.swift; sourceTree = "<group>"; };
+		309340C72B22F86D00C8B201 /* enumarationsFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enumarationsFile.swift; sourceTree = "<group>"; };
+		309340C92B233D1B00C8B201 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		30A72F382B20BD5E004E9E7E /* StopWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StopWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30A72F3B2B20BD5E004E9E7E /* StopWatchAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchAppApp.swift; sourceTree = "<group>"; };
+		30A72F3D2B20BD5E004E9E7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		30A72F3F2B20BD60004E9E7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30A72F422B20BD60004E9E7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		30A72F492B20C42A004E9E7E /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30A72F352B20BD5E004E9E7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		309340BB2B220E5700C8B201 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				309340BC2B220E8C00C8B201 /* LapsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		309340BE2B220ED000C8B201 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				309340BF2B220F0B00C8B201 /* StopWatchViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		309340C12B220F6C00C8B201 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				309340C42B22F23C00C8B201 /* StopWatchButtons.swift */,
+				30A72F3D2B20BD5E004E9E7E /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		309340C62B22F49400C8B201 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				30A72F492B20C42A004E9E7E /* ColorConstants.swift */,
+				309340C72B22F86D00C8B201 /* enumarationsFile.swift */,
+				309340C92B233D1B00C8B201 /* Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		30A72F2F2B20BD5D004E9E7E = {
+			isa = PBXGroup;
+			children = (
+				30A72F3A2B20BD5E004E9E7E /* StopWatchApp */,
+				30A72F392B20BD5E004E9E7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30A72F392B20BD5E004E9E7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30A72F382B20BD5E004E9E7E /* StopWatchApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30A72F3A2B20BD5E004E9E7E /* StopWatchApp */ = {
+			isa = PBXGroup;
+			children = (
+				309340C62B22F49400C8B201 /* Utilities */,
+				309340C12B220F6C00C8B201 /* Views */,
+				309340BE2B220ED000C8B201 /* ViewModels */,
+				309340BB2B220E5700C8B201 /* Models */,
+				30A72F3B2B20BD5E004E9E7E /* StopWatchAppApp.swift */,
+				30A72F3F2B20BD60004E9E7E /* Assets.xcassets */,
+				30A72F412B20BD60004E9E7E /* Preview Content */,
+				309340B92B21D93100C8B201 /* AppDelegate.swift */,
+			);
+			path = StopWatchApp;
+			sourceTree = "<group>";
+		};
+		30A72F412B20BD60004E9E7E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				30A72F422B20BD60004E9E7E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30A72F372B20BD5E004E9E7E /* StopWatchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30A72F462B20BD60004E9E7E /* Build configuration list for PBXNativeTarget "StopWatchApp" */;
+			buildPhases = (
+				30A72F342B20BD5E004E9E7E /* Sources */,
+				30A72F352B20BD5E004E9E7E /* Frameworks */,
+				30A72F362B20BD5E004E9E7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StopWatchApp;
+			productName = StopWatchApp;
+			productReference = 30A72F382B20BD5E004E9E7E /* StopWatchApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30A72F302B20BD5D004E9E7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					30A72F372B20BD5E004E9E7E = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 30A72F332B20BD5D004E9E7E /* Build configuration list for PBXProject "StopWatchApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30A72F2F2B20BD5D004E9E7E;
+			productRefGroup = 30A72F392B20BD5E004E9E7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30A72F372B20BD5E004E9E7E /* StopWatchApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30A72F362B20BD5E004E9E7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A72F432B20BD60004E9E7E /* Preview Assets.xcassets in Resources */,
+				30A72F402B20BD60004E9E7E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30A72F342B20BD5E004E9E7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				309340C02B220F0B00C8B201 /* StopWatchViewModel.swift in Sources */,
+				309340BA2B21D93100C8B201 /* AppDelegate.swift in Sources */,
+				30A72F4A2B20C42A004E9E7E /* ColorConstants.swift in Sources */,
+				30A72F3E2B20BD5E004E9E7E /* ContentView.swift in Sources */,
+				309340CA2B233D1B00C8B201 /* Extensions.swift in Sources */,
+				309340C52B22F23C00C8B201 /* StopWatchButtons.swift in Sources */,
+				30A72F3C2B20BD5E004E9E7E /* StopWatchAppApp.swift in Sources */,
+				309340BD2B220E8C00C8B201 /* LapsModel.swift in Sources */,
+				309340C82B22F86D00C8B201 /* enumarationsFile.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		30A72F442B20BD60004E9E7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30A72F452B20BD60004E9E7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30A72F472B20BD60004E9E7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StopWatchApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diatoz.mounika.StopWatchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		30A72F482B20BD60004E9E7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StopWatchApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diatoz.mounika.StopWatchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30A72F332B20BD5D004E9E7E /* Build configuration list for PBXProject "StopWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30A72F442B20BD60004E9E7E /* Debug */,
+				30A72F452B20BD60004E9E7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30A72F462B20BD60004E9E7E /* Build configuration list for PBXNativeTarget "StopWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30A72F472B20BD60004E9E7E /* Debug */,
+				30A72F482B20BD60004E9E7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30A72F302B20BD5D004E9E7E /* Project object */;
+}
